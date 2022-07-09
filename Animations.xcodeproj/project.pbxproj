@@ -11,6 +11,7 @@
 		189EAC032878C986006CD34B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EAC022878C986006CD34B /* ContentView.swift */; };
 		189EAC052878C989006CD34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EAC042878C989006CD34B /* Assets.xcassets */; };
 		189EAC082878C989006CD34B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EAC072878C989006CD34B /* Preview Assets.xcassets */; };
+		189EAC0F2879F205006CD34B /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EAC0E2879F205006CD34B /* ControllingAnimationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		189EAC022878C986006CD34B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		189EAC042878C989006CD34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189EAC072878C989006CD34B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		189EAC0E2879F205006CD34B /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				189EAC002878C986006CD34B /* AnimationsApp.swift */,
+				189EAC0E2879F205006CD34B /* ControllingAnimationStack.swift */,
 				189EAC022878C986006CD34B /* ContentView.swift */,
 				189EAC042878C989006CD34B /* Assets.xcassets */,
 				189EAC062878C989006CD34B /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189EAC0F2879F205006CD34B /* ControllingAnimationStack.swift in Sources */,
 				189EAC032878C986006CD34B /* ContentView.swift in Sources */,
 				189EAC012878C986006CD34B /* AnimationsApp.swift in Sources */,
 			);
