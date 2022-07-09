@@ -12,6 +12,7 @@
 		189EAC052878C989006CD34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EAC042878C989006CD34B /* Assets.xcassets */; };
 		189EAC082878C989006CD34B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189EAC072878C989006CD34B /* Preview Assets.xcassets */; };
 		189EAC0F2879F205006CD34B /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EAC0E2879F205006CD34B /* ControllingAnimationStack.swift */; };
+		189EAC112879F5FE006CD34B /* AnimationsGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EAC102879F5FE006CD34B /* AnimationsGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		189EAC042878C989006CD34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		189EAC072878C989006CD34B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		189EAC0E2879F205006CD34B /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
+		189EAC102879F5FE006CD34B /* AnimationsGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				189EAC002878C986006CD34B /* AnimationsApp.swift */,
+				189EAC102879F5FE006CD34B /* AnimationsGestures.swift */,
 				189EAC0E2879F205006CD34B /* ControllingAnimationStack.swift */,
 				189EAC022878C986006CD34B /* ContentView.swift */,
 				189EAC042878C989006CD34B /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				189EAC0F2879F205006CD34B /* ControllingAnimationStack.swift in Sources */,
 				189EAC032878C986006CD34B /* ContentView.swift in Sources */,
+				189EAC112879F5FE006CD34B /* AnimationsGestures.swift in Sources */,
 				189EAC012878C986006CD34B /* AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
