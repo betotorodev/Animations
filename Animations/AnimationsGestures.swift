@@ -14,23 +14,23 @@ struct AnimationsGestures: View {
   
   
   var body: some View {
-    //    LinearGradient(gradient: Gradient(colors: [.yellow, .red]), startPoint: .topLeading, endPoint: .bottomTrailing)
-    //      .frame(width: 300, height: 200)
-    //      .clipShape(RoundedRectangle(cornerRadius: 10))
-    //      .offset(dragAmount)
-    //      .gesture(
-    //        DragGesture()
-    //          .onChanged { dragAmount = $0.translation }
-    //          .onEnded { _ in
-    //          explicit animation
-    //            withAnimation(.spring()) {
-    //              dragAmount = .zero
-    //            }
-    //
-    //          }
-    //      )
-    //   implicit animation
-    //   .animation(.spring(), value: dragAmount)
+//        LinearGradient(gradient: Gradient(colors: [.yellow, .red]), startPoint: .topLeading, endPoint: .bottomTrailing)
+//          .frame(width: 300, height: 200)
+//          .clipShape(RoundedRectangle(cornerRadius: 10))
+//          .offset(dragAmount)
+//          .gesture(
+//            DragGesture()
+//              .onChanged { dragAmount = $0.translation }
+//              .onEnded { _ in
+//              explicit animation
+//                withAnimation(.spring()) {
+//                  dragAmount = .zero
+//                }
+//    
+//              }
+//          )
+//       implicit animation
+//       .animation(.spring(), value: dragAmount)
     
     HStack(spacing: 0) {
       ForEach(0..<letters.count, id: \.self) { num in
